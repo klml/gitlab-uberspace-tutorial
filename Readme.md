@@ -327,6 +327,7 @@ Eine kurze Anleitung und die Service-Skripte findet ihr in seiner eigenen [GitLa
 - [gitlab-workhorse-Service](services/gitlab-workhorse)
 
 In dem Script sind am Anfang zwei Ports anzugeben.
+
 1. Für `[your unicorn port]` nehmen wir den unter [unicorn.rb Konfiguration](#unicornrb-konfiguration) ausgewählten Port für den Unicorn-Webserver.
 2. Für `[your gitlab-workhorse port]` suchen wir uns einen neuen freien Port nach dem selben Schema aus (zwischen 1024 und 61000) und merken uns diesen nun auch noch.
 
